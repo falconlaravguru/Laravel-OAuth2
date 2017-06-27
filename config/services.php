@@ -39,5 +39,11 @@ return [
         'client_secret' => env('GITHUB_SECRET'),
         'redirect' => env('GITHUB_URL'),
     ],
+    'google' => [
+        'client_id' => '14473722966-gdnbfrr17vg2lobfgedqmab6cfs6c5mn.apps.googleusercontent.com',
+        'client_secret' => 'LFBaUznPqD__zP95KKFLqP0P',
+        'redirect' => 'http://localhost:8000/GoogleSign',
+        'api_key' => 'AIzaSyCRahThuonhLF_wVGUMFZi2sm5FrQK7tSU',
+    ],
 
 ];
