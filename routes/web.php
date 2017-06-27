@@ -21,3 +21,7 @@ Route::get('auth/github/callback', 'Auth\AuthController@handlerProviderCallback'
 Route::get('Home', function() {
     return view('Home.index');
 });
+
+Route::get('GoogleSign', 'googlesignController@Index');
+
+Route::post('verifyToken','googlesignController@verifyToken');
